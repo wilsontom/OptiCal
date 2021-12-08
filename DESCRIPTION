@@ -1,0 +1,20 @@
+Package: OptiCal
+Type: Package
+Title: Optimise Calibrants
+Version: 0.1.0
+Authors@R: c(
+    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Description: Selecting the optimal oberservations from a calibration series.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends:
+  magrittr
+Imports:
+  purrr,
+  dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
