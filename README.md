@@ -1,6 +1,6 @@
 # OptiCal
 
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/OptiCal/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/OptiCal/actions)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/wilsontom/OptiCal/workflows/R-CMD-check/badge.svg)](https://github.com/wilsontom/OptiCal/actions) [![codecov](https://codecov.io/gh/wilsontom/OptiCal/branch/master/graph/badge.svg?token=5nTRCeSozW)](https://codecov.io/gh/wilsontom/OptiCal) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0")
 
 > **Opti**mise **Cal**ibrants
 
