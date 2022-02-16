@@ -8,6 +8,9 @@
 #'  * `score`: numeric value of the `OptiCal` score
 #'  * `data`: a `data.frame` of the optimal set of calibration observations
 #' @export
+#' @importFrom stats median predict weighted.mean
+#' @importFrom utils combn
+#' @importFrom magrittr %>%
 
 optimise <- function(calibration_data,
                      p = 0.6,
