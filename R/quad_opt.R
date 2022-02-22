@@ -33,12 +33,13 @@ quad_opt <- function(p_area)
 
   step_range_me <- purrr::map_dbl(step_range, median)
 
-  step_range_rel <- (step_range_me / max(step_range_me)) / 2
+  step_range_rel <- log(((step_range_me / max(step_range_me))))
+
 
   OPTICAL_SCORE <- list()
   for (i in seq_along(qursq)) {
     OPTICAL_SCORE[[i]] <-
-      weighted.mean(c(qursq[i], err[i], step_range_rel[i]))
+      weighted.mean(c(qursq[i], err[i])) #, step_range_rel[i]))
   }
 
   OPTICAL_SCORE <- unlist(OPTICAL_SCORE)

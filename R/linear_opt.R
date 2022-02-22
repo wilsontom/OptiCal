@@ -38,7 +38,7 @@ linear_opt <- function(p_area)
   OPTICAL_SCORE <- list()
   for (i in seq_along(lmrsq)) {
     OPTICAL_SCORE[[i]] <-
-      weighted.mean(c(lmrsq[i], err[i], step_range_rel[i]))
+      weighted.mean(c(lmrsq[i], err[i])) #, step_range_rel[i]))
   }
 
 
